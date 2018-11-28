@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'DAGGERSQUARE';
+	src: url('../fonts/DAGGERSQUARE OBLIQUE.otf');
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: 'MontserratB';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+.paddles_welcome
+{
+	text-align:center;
+	font-family: 'Montserrat';
+	font-size:16px;
+	padding:20px 0px;
+}
+.paddles_welcome h3
+{
+	font-family: 'DAGGERSQUARE';
+	margin-bottom:20px;
+}
+.paddles_same-section
+{
+	text-align:center;
+	font-family: 'Montserrat';
+	color:#fff;
+	padding:40px 0px;
+}
+.paddles_same-section p
+{
+	padding:0px 10%;
+}
+.paddles_same-section h3
+{
+	color:#FF7E0D;
+	font-family: 'MontserratB';
+	font-size:20px
+}
+.paddles_section1
+{
+	background:url(../images/paddles_pic12.png) no-repeat;
+	background-size:100% 100%;
+}
+.paddles_section2
+{
+	background:url(../images/paddles_pic34.png) no-repeat;
+	background-size:100% 100%;
+	margin-top:1px;
+}
+@media (min-width:100px) and (max-width:767px)
+{
+.paddles_same-section .col-sm-6
+{
+	margin:1px  0 0 0
+}
+.paddles_same-section
+{
+	background:none;
+	padding:0px;
+}
+.paddles_same-section .container
+{
+	padding:0px;
+}
+.paddles_same-section .paddles_same1
+{
+	background:url(../images/paddles_pic1.png) 100% 100%;
+	padding:20px;
+	
+}
+.paddles_same-section .paddles_same2
+{
+	background:url(../images/paddles_pic2.png) 100% 100%;
+	padding:20px;
+	
+}
+.paddles_same-section .paddles_same3
+{
+	background:url(../images/paddles_pic3.png) 100% 100%;
+	padding:20px;
+	
+}
+.paddles_same-section .paddles_same4
+{
+	background:url(../images/paddles_pic4.png) 100% 100%;
+	padding:20px;
+	
+}
+.paddles_same-section p
+{
+	padding:0px;
+}
+.paddles_section2
+{
+	margin:0px;
+}
+}
